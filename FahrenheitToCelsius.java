@@ -7,9 +7,11 @@ public class FahrenheitToCelsius {
         // รับค่า Fahrenheit
         System.out.print("กรอกค่าอุณหภูมิ (°F): ");
         double fahrenheit = input.nextDouble();
+        // float fahrenheit = input.nextDouble();
 
         // คำนวณ Celsius
         double celsius = (5.0 / 9.0) * (fahrenheit - 32);
+        // float celsius = (5.0f / 9.0f) * (fahrenheit - 32.0f);
 
         // แสดงผล
         System.out.println("อุณหภูมิฟาเรนไฮต์: " + fahrenheit + " °F");
